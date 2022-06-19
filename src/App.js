@@ -1,3 +1,4 @@
+import Course from "./components/Course";
 import Features from "./components/Features";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <TeacherGuide />
       <Showcase/>
+      <Course/>
     </div>
   );
 }
