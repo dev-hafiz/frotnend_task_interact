@@ -29,10 +29,10 @@
 
   &__inputArea{
     &-child1{
-    @include customInoutBox(200px);
+    @include customInputBox(200px);
     }
     &-child2{
-    @include customInoutBox(300px);
+    @include customInputBox(300px);
     }
     &-child3{
     @include buttonPrimary(200px);

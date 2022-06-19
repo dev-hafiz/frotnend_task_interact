@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-@mixin customInoutBox($width) {
+@mixin customInputBox($width) {
     width:$width;
     margin-right: 30px;
     display: inline-block;
