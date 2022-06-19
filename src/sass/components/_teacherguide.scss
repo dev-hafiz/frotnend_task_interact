@@ -1,6 +1,5 @@
 .guide{
-
-  margin-top: 200px;
+  margin-top: 160px;
   @include bgImage("/images/talkBg.jpg", scroll);
   background-color: rgba(17, 33, 49, 0.6);
  
@@ -23,8 +22,8 @@
     &-box2 p{
       margin-bottom: 20px;
       font-size: 15px;
-    font-weight: 300;
-    line-height: 1.5;
+      font-weight: 300;
+      line-height: 1.5;
     }
   }
 }
