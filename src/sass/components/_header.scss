@@ -2,5 +2,41 @@
   width: 100%;
   height: 100vh;
   @include bgImage("/images/hero.jpg");
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(44, 62, 80, 0.6);
+  @include itemsCenter;
+
+  &__content{
+    &-h1{
+    color: $colorWhite;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 60px;
+    text-align: center;
+    }
+    &-p{
+      color: $colorWhite;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 38px;
+      margin-bottom: 70px;
+      margin-top: 20px;
+      text-align: center
+    }
+  }
+
+  &__inputArea{
+    &-child1{
+    @include customInoutBox(200px);
+    }
+    &-child2{
+    @include customInoutBox(300px);
+    }
+    &-child3{
+    @include buttonPrimary(200px);
+    }
+
+  }
+
 }

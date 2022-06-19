@@ -5,3 +5,54 @@
   background-attachment: fixed;
   background-blend-mode: overlay;
 }
+
+@mixin itemsCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin customInoutBox($width) {
+    width:$width;
+    margin-right: 30px;
+    display: inline-block;
+    font-size: 12px;
+    color: $colorGray;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 46px;
+    background-color: $colorWhite;
+    border: none;
+    border-radius: 50px;
+    height: 46px;
+    padding: 0 25px;
+    outline: none;
+}
+
+@mixin buttonPrimary($width) {
+    background-color: $colorPink;
+    background-image:$colorGradiant;
+    color: $colorWhite;
+    border: none;
+    transition: all 300ms linear;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0;
+    line-height: 46px;
+    width:$width;
+    height: 46px;
+    outline: none;
+    cursor: pointer;
+
+    &:hover{
+    color: $colorWhite;
+    background-image: none;
+    background-color: $colorWaterPink;
+    }
+}
