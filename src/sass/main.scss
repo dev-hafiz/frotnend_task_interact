@@ -5,7 +5,13 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
+// import uitilities 
+@import "uitilities/uitilites";
 
+// import grid
+@import "layout/grid";
 
 // import components 
 @import "components/header";
+@import "components/features";
+@import "components/navbar";

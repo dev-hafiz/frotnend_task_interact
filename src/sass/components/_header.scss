@@ -2,10 +2,11 @@
   width: 100%;
   height: 100vh;
   @include bgImage("/images/hero.jpg");
-  background-color: rgba(44, 62, 80, 0.6);
+  background-color: rgba(17, 33, 49, 0.6);
   @include itemsCenter;
 
   &__content{
+    padding: 100px 20px 0px 20px;
     &-h1{
     color: $colorWhite;
     font-size: 40px;
