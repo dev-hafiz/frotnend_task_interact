@@ -1,0 +1,86 @@
+.newsletter{
+
+  margin: 120px 0px 80px 0px;
+
+  &__content{
+    &-h1{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-bottom: 35px;
+    color: $colorBlue;
+    }
+  }
+
+  .blockquote{
+    &__content p {
+     
+      position: relative;
+      color: $colorGray;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 30px;
+      margin-bottom: 30px;
+      padding: 10px 20px;
+      margin-left: 40px ;
+
+      &::before{
+        content: "“ ";
+        font-size: 40px;
+        font-weight: 900;
+        position: absolute;
+        top: -10px;
+        left: -20px;
+      }
+      &::after {
+        content: " ”";
+        font-size: 40px;
+        font-weight: 900;
+        position: absolute;
+        bottom: -20px;
+      }
+    }
+
+    &-profileBox{
+      @include itemsCenter;
+      justify-content: flex-start;
+    }
+
+    &-profileBox img {
+    width: 80px;
+    height: 80px;
+    line-height: 70px;
+    border-radius: 50%;
+    }
+
+    &-author{
+      margin-left: 20px;
+    }
+
+    &-title{
+      color: $colorBlue;
+      font-family: 'Comfortaa', cursive;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1;
+      margin-bottom: 6px;
+      padding-top: 17px;
+  }
+   
+  &-subTitle{
+    color: $colorGray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+
+
+  }
+}
+

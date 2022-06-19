@@ -26,7 +26,7 @@ const Course = () => {
                   nostra mauris.
                 </p>
 
-                <button type="submit" className="course__content-button">
+                <button type="submit" className="header__inputArea-child3">
                   Get Started
                 </button>
               </div>
