@@ -1,5 +1,6 @@
 import Course from "./components/Course";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import NewsLetter from "./components/NewsLetter";
@@ -17,6 +18,7 @@ function App() {
       <Showcase />
       <NewsLetter />
       <Course />
+      <Footer />
     </div>
   );
 }
