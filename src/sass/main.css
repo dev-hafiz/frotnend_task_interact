@@ -17,4 +17,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.6);
 }/*# sourceMappingURL=main.css.map */
