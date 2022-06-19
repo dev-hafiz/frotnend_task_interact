@@ -2,3 +2,17 @@
 width: 1200px;
 margin: 0 auto;
 }
+
+.whiteBg {
+  background: $colorWhite !important;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+  & a {
+    color: $colorBlack !important;
+  }
+}
+.transparent {
+  background: transparent;
+  & a{
+    color: $colorWhite;
+  }
+}

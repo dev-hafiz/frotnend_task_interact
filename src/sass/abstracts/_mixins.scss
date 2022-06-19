@@ -1,9 +1,10 @@
-@mixin bgImage($image) {
+@mixin bgImage($image, $property) {
   background: url($image);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: $property;
   background-blend-mode: overlay;
+  background-position: center center;
 }
 
 @mixin itemsCenter {

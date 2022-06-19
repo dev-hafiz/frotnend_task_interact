@@ -15,6 +15,21 @@ body {
   margin: 0 auto;
 }
 
+.whiteBg {
+  background: #ffffff !important;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+.whiteBg a {
+  color: #000000 !important;
+}
+
+.transparent {
+  background: transparent;
+}
+.transparent a {
+  color: #ffffff;
+}
+
 .col-1 {
   flex: 0 0 8.3333333333%;
   width: 8.3333333333%;
@@ -81,7 +96,7 @@ body {
 }
 
 .py-6 {
-  padding: 60px 0;
+  padding: 70px 0;
 }
 
 .header {
@@ -92,6 +107,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;
+  background-position: center center;
   background-color: rgba(17, 33, 49, 0.6);
   display: flex;
   align-items: center;
@@ -216,6 +232,8 @@ body {
   top: 0;
   background: transparent;
   height: 80px;
+  transition: all 0.5s linear;
+  z-index: 9999;
 }
 .navbar__content {
   display: flex;
@@ -243,4 +261,37 @@ body {
   text-transform: capitalize;
   font-weight: 400;
   margin-right: 38px;
+}
+
+.guide {
+  margin-top: 200px;
+  background: url("/images/talkBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-blend-mode: overlay;
+  background-position: center center;
+  background-color: rgba(17, 33, 49, 0.6);
+}
+.guide__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.guide__content-box1 img {
+  margin-top: -120px;
+  width: 70%;
+  height: auto;
+}
+.guide__content-box2 h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+.guide__content-box2 p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */

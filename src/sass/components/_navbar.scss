@@ -4,6 +4,9 @@
   top:0;
   background: transparent;
   height: 80px;
+  transition: all .5s linear;
+  z-index: 9999;
+  
 
   &__content{
     display: flex;

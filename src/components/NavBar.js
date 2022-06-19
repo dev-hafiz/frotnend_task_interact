@@ -1,14 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../src/images/logo.png";
 import logo2 from "../../src/images/logo2.png";
 
 const NavBar = () => {
+  // Declare state for changing nabvar style conditional rendering
+  const [state, setState] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 120) {
+      setState(true);
+    } else {
+      setState(false);
+    }
+  };
+
   return (
-    <div className="navbar">
+    <div className={`navbar ${state ? 'whiteBg' : 'transparent'}`}>
       <div className="container">
         <div className="navbar__content">
           <div className="navbar__left">
-            <img src={logo2} alt="logo" />
+            <img src={ state ? logo : logo2 } alt="logo" />
           </div>
           <ul className="navbar__right">
             <li>
