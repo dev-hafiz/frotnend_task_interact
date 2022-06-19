@@ -15,6 +15,75 @@ body {
   margin: 0 auto;
 }
 
+.col-1 {
+  flex: 0 0 8.3333333333%;
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.6666666667%;
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.3333333333%;
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.6666666667%;
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.3333333333%;
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.6666666667%;
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.3333333333%;
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.6666666667%;
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.py-6 {
+  padding: 60px 0;
+}
+
 .header {
   width: 100%;
   height: 100vh;
@@ -114,7 +183,31 @@ body {
 .features {
   background: #2c3e50;
   width: 100%;
-  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features__contentBox {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 30px;
+}
+.features__contentBox-icon {
+  margin-bottom: 30px;
+}
+.features__contentBox-heading {
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.features__contentBox-des {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: 0;
 }
 
 .navbar {
