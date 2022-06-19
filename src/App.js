@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Features />
       <TeacherGuide />
-      <Showcase/>
-      <Course/>
-      <NewsLetter/>
+      <Showcase />
+      <NewsLetter />
+      <Course />
     </div>
   );
 }
