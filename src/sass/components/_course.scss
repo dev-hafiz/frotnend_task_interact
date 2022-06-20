@@ -31,10 +31,17 @@
     &-box {
       display: flex;
       justify-content: flex-end;
+
+      @include responsive(765px) {
+        @include itemsCenter;
+      }
     }
 
     &-card {
       @include card(transparent);
+      @include responsive(765px) {
+        width: 100%;
+      }
     }
 
     &-miniTitle {
@@ -68,8 +75,19 @@
 
     //Second Card style
 
+    &-boxSecond {
+      display: flex;
+      justify-content: flex-start;
+
+      @include responsive(765px) {
+        @include itemsCenter;
+      }
+    }
     &-cardSecond {
       @include card($colorBlue);
+      @include responsive(765px) {
+        width: 100%;
+      }
     }
 
     &-miniTitleSecond {

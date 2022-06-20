@@ -1,5 +1,8 @@
 .showcase {
   margin: 80px 0;
+  @include responsive(765px) {
+    padding: 20px;
+  }
 
   &__content {
     @include itemsCenter;
@@ -24,6 +27,10 @@
     &-img {
       display: flex;
       justify-content: flex-end;
+      @include responsive(765px) {
+        @include itemsCenter;
+        margin-top: 30px;
+      }
     }
 
     &-img img {

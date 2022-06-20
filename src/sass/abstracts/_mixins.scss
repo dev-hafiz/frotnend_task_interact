@@ -105,3 +105,10 @@
       margin-bottom: 50px;
       margin-top: 30px;
 }
+
+// Resopnsive meadia queries mixin
+@mixin responsive($width) {
+  @media (max-width:$width) {
+    @content;
+  }
+}

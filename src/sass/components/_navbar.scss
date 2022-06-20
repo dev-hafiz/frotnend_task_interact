@@ -7,21 +7,39 @@
   transition: all 0.5s linear;
   z-index: 9999;
 
+  @include responsive(765px){
+    height: 130px;
+  }
+
   &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
+
+    @include responsive(765px){
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   &__left img {
     width: 120px;
     height: auto;
+    @include responsive(765px){
+      padding-top: 20px;
+      
+    }
   }
 
   &__right {
     display: flex;
     list-style: none;
+    
+    @include responsive(765px){
+      margin-top: -20px;
+    }
 
     & li a {
       text-decoration: none;
@@ -35,6 +53,9 @@
       text-transform: capitalize;
       font-weight: 400;
       margin-right: 38px;
+      @include responsive(765px){
+        margin-right: 20px;
+      }
     }
   }
 }

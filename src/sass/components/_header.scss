@@ -5,6 +5,9 @@
   background-color: rgba(17, 33, 49, 0.6);
   @include itemsCenter;
 
+  @include responsive(765px) {
+  }
+
   &__content {
     padding: 100px 20px 0px 20px;
     &-h1 {
@@ -24,18 +27,31 @@
       margin-bottom: 70px;
       margin-top: 20px;
       text-align: center;
+
+      @include responsive(765px) {
+        margin-top: 60px;
+      }
     }
   }
 
   &__inputArea {
     &-child1 {
       @include customInputBox(200px);
+      @include responsive(765px) {
+        @include customInputBox(100%);
+      }
     }
     &-child2 {
       @include customInputBox(300px);
+      @include responsive(765px) {
+        @include customInputBox(100%);
+      }
     }
     &-child3 {
       @include buttonPrimary(200px);
+      @include responsive(765px) {
+        @include buttonPrimary(100%);
+      }
     }
   }
 }

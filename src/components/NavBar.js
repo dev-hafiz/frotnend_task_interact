@@ -38,9 +38,7 @@ const NavBar = () => {
             <li>
               <a href="#">Join Us</a>
             </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
+           
           </ul>
         </div>
       </div>

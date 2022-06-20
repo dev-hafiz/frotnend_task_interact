@@ -31,7 +31,7 @@ const Course = () => {
                 </button>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 course__content-boxSecond">
               <div className="course__content-cardSecond">
                 <h4 className="course__content-miniTitleSecond">Full Course</h4>
                 <p className="course__content-priceSecond">
