@@ -19,7 +19,8 @@
       text-align: center;
 
       @include responsive(765px) {
-        font-size: 20px;
+        margin-top: 20px;
+        font-size: 18px;
       }
     }
     &-p {
