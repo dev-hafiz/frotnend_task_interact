@@ -38,7 +38,7 @@ const Course = () => {
                   25 <sup>$</sup>
                 </p>
                 <hr />
-                <p className="course__content-para">
+                <p className="course__content-paraSecond">
                   Class aptent taciti sociosqu ad litora torent per conubia
                   nostra mauris.
                 </p>

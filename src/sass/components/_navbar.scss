@@ -1,14 +1,13 @@
-.navbar{
+.navbar {
   width: 100%;
   position: fixed;
-  top:0;
+  top: 0;
   background: transparent;
   height: 80px;
-  transition: all .5s linear;
+  transition: all 0.5s linear;
   z-index: 9999;
-  
 
-  &__content{
+  &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,10 +16,10 @@
 
   &__left img {
     width: 120px;
-    height:auto;
+    height: auto;
   }
 
-  &__right{
+  &__right {
     display: flex;
     list-style: none;
 
@@ -32,7 +31,7 @@
       letter-spacing: 1px;
       position: relative;
       font-size: 16px;
-      font-family: 'Comfortaa', cursive;
+      font-family: "Comfortaa", cursive;
       text-transform: capitalize;
       font-weight: 400;
       margin-right: 38px;

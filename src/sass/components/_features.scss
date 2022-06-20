@@ -1,19 +1,19 @@
-.features{
+.features {
   background: $colorBlue;
   width: 100%;
   @include itemsCenter;
 
-  &__contentBox{
+  &__contentBox {
     text-align: center;
     color: $colorWhite;
     margin: 0 30px;
-    
-    &-icon{
+
+    &-icon {
       margin-bottom: 30px;
     }
 
-    &-heading{
-      font-family: 'Comfortaa', cursive;
+    &-heading {
+      font-family: "Comfortaa", cursive;
       font-size: 18px;
       font-weight: 700;
       line-height: 1;
@@ -21,7 +21,7 @@
       margin-bottom: 14px;
     }
 
-    &-des{
+    &-des {
       font-size: 16px;
       font-weight: 300;
       line-height: 25px;

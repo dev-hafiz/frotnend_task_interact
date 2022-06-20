@@ -1,10 +1,10 @@
-.showcase{
+.showcase {
   margin: 80px 0;
 
-  &__content{
+  &__content {
     @include itemsCenter;
 
-    &-h2{
+    &-h2 {
       color: $colorBlue;
       font-size: 30px;
       font-weight: 400;
@@ -13,7 +13,7 @@
       padding-top: 54px;
     }
 
-    &-p{
+    &-p {
       font-size: 20px;
       font-weight: 300;
       line-height: 30px;
@@ -21,12 +21,12 @@
       color: $colorGray;
     }
 
-    &-img{
+    &-img {
       display: flex;
       justify-content: flex-end;
     }
 
-    &-img img{
+    &-img img {
       width: 70%;
       display: flex;
     }

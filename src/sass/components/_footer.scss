@@ -1,45 +1,40 @@
-.footer{
+.footer {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
 
-  &__content{
-   
-
-    &-h3{
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1;
-    text-transform: uppercase;
-    margin-bottom: 45px;
+  &__content {
+    &-h3 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1;
+      text-transform: uppercase;
+      margin-bottom: 45px;
     }
 
-    &-p{
+    &-p {
       margin-bottom: 20px;
       color: $colorBlue;
       font-size: 18px;
     }
 
-    &-icon{
+    &-icon {
       color: $colorBlue;
       text-align: center;
       cursor: pointer;
       padding: 20px 0;
       & span {
         margin-right: 20px;
-        &:last-of-type{
+        &:last-of-type {
           margin-right: 0px;
         }
       }
-      
     }
 
-    &-footerText{
+    &-footerText {
       padding-top: 20px;
       color: $colorBlue;
       font-size: 16px;
     }
-
   }
-
 }

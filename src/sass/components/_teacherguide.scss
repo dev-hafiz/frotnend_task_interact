@@ -1,10 +1,9 @@
-.guide{
+.guide {
   margin-top: 160px;
   @include bgImage("/images/talkBg.jpg", scroll);
   background-color: rgba(17, 33, 49, 0.6);
- 
 
-  &__content{
+  &__content {
     @include itemsCenter;
     color: $colorWhite;
     &-box1 img {
@@ -13,13 +12,13 @@
       height: auto;
     }
 
-    &-box2 h3{
+    &-box2 h3 {
       font-size: 28px;
       margin-bottom: 20px;
       padding-top: 30px;
     }
 
-    &-box2 p{
+    &-box2 p {
       margin-bottom: 20px;
       font-size: 15px;
       font-weight: 300;

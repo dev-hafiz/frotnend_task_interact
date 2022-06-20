@@ -19,7 +19,7 @@ const TeacherGuide = () => {
               accompanied by visual clues to aid comprehension. In a monolingual
               teaching context overseas, the teacher may provide a valuable
               source of authentic listening, exposing learners to a limited
-              amount of new language, and ‘roughly tuning’ input to assist
+              amount of new language, and roughly tuning input to assist
               comprehension. In some circumstances, the teacher may be the only
               source of models of good, natural language. Some forms of TTT are
               clearly beneficial
