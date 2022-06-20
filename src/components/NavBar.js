@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Reveal } from "react-reveal";
 import logo from "../../src/images/logo.png";
 import logo2 from "../../src/images/logo2.png";
 
@@ -19,7 +20,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className={`navbar ${state ? 'whiteBg' : 'transparent'}`}>
+    <Reveal effect="fadeInUp">
+      <div className={`navbar ${state ? 'whiteBg' : 'transparent'}`}>
       <div className="container">
         <div className="navbar__content">
           <div className="navbar__left">
@@ -43,6 +45,7 @@ const NavBar = () => {
         </div>
       </div>
     </div>
+    </Reveal>
   );
 };
 

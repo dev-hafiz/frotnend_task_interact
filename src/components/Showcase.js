@@ -1,9 +1,11 @@
 import React from "react";
+import { Fade } from "react-reveal";
 import course from "../../src/images/coursePic.jpg";
 
 const Showcase = () => {
   return (
-    <div className="showcase">
+   <Fade left>
+     <div className="showcase">
       <div className="container">
         <div className="row showcase__content">
           <div className="col-6">
@@ -23,6 +25,7 @@ const Showcase = () => {
         </div>
       </div>
     </div>
+   </Fade>
   );
 };
 

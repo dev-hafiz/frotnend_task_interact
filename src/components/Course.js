@@ -1,8 +1,10 @@
 import React from "react";
+import { LightSpeed } from "react-reveal";
 
 const Course = () => {
   return (
-    <div className="course">
+    <LightSpeed left>
+      <div className="course">
       <div className="container">
         <div className="course__content">
           <div className="course__content-premium">
@@ -52,6 +54,7 @@ const Course = () => {
         </div>
       </div>
     </div>
+    </LightSpeed>
   );
 };
 

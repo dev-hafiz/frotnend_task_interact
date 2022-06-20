@@ -1,8 +1,10 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 const Features = () => {
   return (
-    <div className="features">
+   <Fade left>
+     <div className="features">
       <div className="container">
         <div className="row py-6">
           <div className="col-4">
@@ -71,6 +73,7 @@ const Features = () => {
         </div>
       </div>
     </div>
+   </Fade>
   );
 };
 

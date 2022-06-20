@@ -1,8 +1,10 @@
 import React from "react";
+import {Fade } from "react-reveal";
 
 const Header = () => {
   return (
-    <div className="header">
+    <Fade right>
+      <div className="header">
       <div className="header__content">
         <h1 className="header__content-h1">
           Get ready and start to take your <br />
@@ -18,6 +20,7 @@ const Header = () => {
         </p>
       </div>
     </div>
+    </Fade>
   );
 };
 

@@ -1,9 +1,11 @@
 import React from "react";
+import {  LightSpeed} from "react-reveal";
 import auhtor from "../../src/images/author.jpg";
 
 const NewsLetter = () => {
   return (
-    <div className="newsletter">
+   <LightSpeed right>
+     <div className="newsletter">
       <div className="container">
         <div className="row">
           <div className="col-6">
@@ -56,6 +58,7 @@ const NewsLetter = () => {
         </div>
       </div>
     </div>
+   </LightSpeed>
   );
 };
 

@@ -1,8 +1,10 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <Zoom left>
+      <div className="footer">
       <div className="container">
         <div className="footer__content">
           <h3 className="footer__content-h3">GET IN TOUCH</h3>
@@ -67,6 +69,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    </Zoom>
   );
 };
 
