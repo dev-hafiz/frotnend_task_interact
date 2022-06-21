@@ -3,7 +3,7 @@ import { Zoom } from "react-reveal";
 
 const Footer = () => {
   return (
-    <Zoom left>
+    <Zoom right>
       <div className="footer">
       <div className="container">
         <div className="footer__content">
