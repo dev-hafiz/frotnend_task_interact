@@ -2,13 +2,14 @@
 
 *,
 ::after,
-::before{
+::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-
-body{
-  font-family: 'Comfortaa', cursive;
+html, body {
+  font-family: "Comfortaa", cursive;
+  max-width: 100%;
+  overflow-x: hidden;
 }
