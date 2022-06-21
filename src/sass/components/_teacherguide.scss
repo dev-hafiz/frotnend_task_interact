@@ -3,7 +3,7 @@
   @include bgImage("/images/talkBg.jpg", scroll);
   background-color: rgba(17, 33, 49, 0.6);
 
-  @include responsive(765px) {
+  @include responsive(500px) {
     text-align: center;
     padding: 0px 20px 40px 20px;
   }

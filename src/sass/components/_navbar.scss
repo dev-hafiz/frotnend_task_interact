@@ -7,7 +7,8 @@
   transition: all 0.5s linear;
   z-index: 9999;
 
-  @include responsive(765px){
+  @include responsive(500px){
+    width: 100%;
     height: 130px;
   }
 
@@ -17,7 +18,7 @@
     align-items: center;
     height: 80px;
 
-    @include responsive(765px){
+    @include responsive(500px){
       padding-top: 20px;
       display: flex;
       flex-direction: column;
@@ -27,7 +28,7 @@
   &__left img {
     width: 120px;
     height: auto;
-    @include responsive(765px){
+    @include responsive(500px){
       padding-top: 20px;
       
     }
@@ -37,7 +38,7 @@
     display: flex;
     list-style: none;
     
-    @include responsive(765px){
+    @include responsive(500px){
       margin-top: -20px;
     }
 
@@ -53,7 +54,7 @@
       text-transform: capitalize;
       font-weight: 400;
       margin-right: 38px;
-      @include responsive(765px){
+      @include responsive(500px){
         margin-right: 10px;
       }
     }
